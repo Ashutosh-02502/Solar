@@ -1,0 +1,37 @@
+.FAQ h1{
+    margin-left:30px;
+    margin-bottom:50px;
+    text-align:center;
+}
+.FAQ h2{
+    text-align:left;
+    margin-left:50px;
+}
+
+.FAQ h3{
+    text-align:left;
+    margin-left:50px;
+    color:#853535;
+}
+
+.q:hover {
+    transition: all 0.4s ease;
+  background-color: #fffaf3;
+  transform: translateY(-4px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.faq-question-row .faq-toggle-icon.open {
+  color: #b49a9a;
+  transform: rotate(45deg);
+}
+
+.faq-answer {
+  animation: fadeInFAQ 0.4s;
+  transition: max-height 0.4s, padding 0.4s;
+}
+
+@keyframes fadeInFAQ {
+  from { opacity: 0; transform: translateY(-10px);}
+  to { opacity: 1; transform: translateY(0);}
+}

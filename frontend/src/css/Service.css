@@ -1,0 +1,53 @@
+.service-faq h1 {
+    margin-left: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 2rem;
+}
+.service-faq h2 {
+    text-align: left;
+    margin-left: 50px;
+}
+.service-faq h3 {
+    text-align:left;
+    margin-left: 50px;
+    color: #853535;
+}
+
+.service-q {
+    margin: 1.2% auto  auto;
+    max-width: 100%;
+}
+.service-answer li{
+    list-style: none;
+}
+
+.service-q:hover {
+    transition: all 0.4s ease;
+    background-color: #fffaf3;
+    transform: translateY(-4px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.service-question-row .service-toggle-icon.open {
+    color: #b49a9a;
+    transform: rotate(45deg);
+}
+
+.service-answer {
+    animation: fadeInFAQ 0.4s;
+    transition: max-height 0.4s, padding 0.4s;
+}
+
+@keyframes fadeInFAQ {
+    from { opacity: 0; transform: translateY(-10px);}
+    to { opacity: 1; transform: translateY(0);}
+}
+
+.service-answer ul {
+    padding-left: 1.2em;
+}
+.service-answer li {
+    margin-bottom: 8px;
+    font-size: 1.05rem;
+}

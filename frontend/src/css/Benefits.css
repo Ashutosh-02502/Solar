@@ -1,0 +1,10 @@
+.benefits h1{
+    margin-left: 30px;
+    text-align:center;
+}
+.benefits h3{
+    text-align: center;
+}
+.benefits li{
+    list-style: none;
+}

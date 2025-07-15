@@ -1,0 +1,11 @@
+.process h1{
+    margin-left:30px;
+    margin-bottom:50px;
+    text-align:center;
+}
+.process h3{
+    text-align:center;
+}
+.process li{
+    list-style: none;
+}
