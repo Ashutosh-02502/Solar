@@ -163,13 +163,12 @@
     height: 32px;
   }
   .navbar-links {
+    display:none;
     position: absolute;
-    top: 50px;
-    right: -100vw;
+    top: 65px;
     background: #fff;
     flex-direction: column;
     gap: 0;
-    width: 210px;
     margin: 0;
     padding: 18px 0 8px;
     box-shadow: 0 2px 10px rgba(0,0,0,0.13);
@@ -182,6 +181,7 @@
     box-sizing: border-box;
   }
   .navbar-links.open {
+      display: flex;
     right: 0;
   }
   .lang-toggle-li {
