@@ -28,7 +28,7 @@ const content = {
     address: (
       <>
         यादव मोड़, जंगीपुर, गाज़ीपुर<br />
-        उत्तर प्रदेश - 233001
+        उत्तर प्रदेश - 233005
       </>
     ),
     contactUs: "संपर्क करें :-",
@@ -69,7 +69,7 @@ const content = {
     address: (
       <>
         Yadav Mod, Jangipur, Ghazipur<br />
-        Uttar Pradesh - 233001
+        Uttar Pradesh - 233005
       </>
     ),
     contactUs: "Contact :-",
@@ -113,7 +113,7 @@ const Footer = ({ language = "hi" }) => {
           </p>
           <div className="social-icons">
             <a
-              href="https://facebook.com"
+              href="https://www.facebook.com/solarwithkamlesh?mibextid=ZbWKwL "
               target="_blank"
               rel="noopener noreferrer"
             >
