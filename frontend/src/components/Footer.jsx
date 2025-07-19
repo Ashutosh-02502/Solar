@@ -68,7 +68,7 @@ const content = {
     mainOffice: "Main Office:",
     address: (
       <>
-        Yadav Mod, Jangipur, Ghazipur<br />
+        Yadav Modh, Jangipur, Ghazipur<br />
         Uttar Pradesh - 233005
       </>
     ),

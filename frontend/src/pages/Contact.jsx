@@ -16,7 +16,7 @@ const content = {
     phoneLabel: "Phone",
     phones: "7007111763, 9839605023",
     locationLabel: "Location",
-    location: "Yadav Mod, Jangipur, Ghazipur",
+    location: "Yadav Modh, Jangipur, Ghazipur",
     timeLabel: "Hours",
     time: "Monday - Saturday | 9:00am to 6:00pm",
   },
